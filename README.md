@@ -16,10 +16,10 @@ All files needed to add this board to PlatformIO are contained in this project's
 1. Download this Git project.
 2. Navigate to the PlatformIO [core_dir](https://docs.platformio.org/en/latest/projectconf/section_platformio.html#projectconf-pio-core-dir). This is `~/.platformio` on Unix and `%HOMEPATH%\.platformio` on Windows.
 3. Within the `files_to_install` directory:
-    * Copy the file named "sparkfun_pro_nrf52840_mini.json" within this project from:`.\files_to_install\platforms\nordicnrf52\boards\sparkfun_pro_nrf52840_mini.json` to your .platformio core directory at: `.\core_dir\platforms\nordicnrf52\boards`
-    * Copy the directory within this project named "sparkfun_pro_nrf52840_mini" from: `.\files_to_install\packages\framework-arduinoadafruitnrf52\variants\sparkfun_pro_nrf52840_mini` to your platformio core directory at:`.\core_dir\packages\framework-arduinoadafruitnrf52\variants\`
-    * Again, but slightly different, copy the directory within this project named "sparkfun_pro_nrf52840_mini" from: `.\files_to_install\packages\framework-arduinoadafruitnrf52\bootloader\sparkfun_pro_nrf52840_mini`
-to your platformio core directory at: `.\core_dir\packages\framework-arduinoadafruitnrf52\variants\sparkfun_pro_nrf52840_mini`
+    * Copy the file named "sparkfun_pro_nrf52840_mini.json" within this project from:`.\files_to_install\platforms\nordicnrf52\boards\` to your .platformio core directory at: `.\core_dir\platforms\nordicnrf52\boards`
+    * Copy the directory within this project named "sparkfun_pro_nrf52840_mini" from: `.\files_to_install\packages\framework-arduinoadafruitnrf52\variants\` to your platformio core directory at:`.\core_dir\packages\framework-arduinoadafruitnrf52\variants\`
+    * Again, but slightly different, copy the directory within this project named "sparkfun_pro_nrf52840_mini" from: `.\files_to_install\packages\framework-arduinoadafruitnrf52\bootloader\`
+to your platformio core directory at: `.\core_dir\packages\framework-arduinoadafruitnrf52\variants\`
 7. Add to the boards.txt data. (Optional, PlatformIO does not use this file at all but if you want to be thorough)
     * Edit the text document at your core directory: `.\core_dir\packages\framework-arduinoadafruitnrf52\boards.txt`
     * Copy the contents of the file within this project at: `.\files_to_install\packages\framework-arduinoadafruitnrf52\boards_sparkfun.txt` into the `boards.txt` file at the very bottom and save it.
