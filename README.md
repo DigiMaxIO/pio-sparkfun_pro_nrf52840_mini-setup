@@ -1,4 +1,4 @@
-# NOTE
+# note
 This is an updated version of the original branch, with updated bootloader, variant, and json files.
 The PlatformIO test project is also slightly updated as well.
 The original was causing errors resulting in it not compiling in my PlatformIO IDE (latest build as of today is Core 4.3.4 & Home 3.2.2). I believe this is due to an updated structure requirement in the json and variant files. 
