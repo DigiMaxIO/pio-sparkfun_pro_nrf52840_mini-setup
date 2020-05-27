@@ -1,7 +1,6 @@
 # note
-This is an updated version of the original branch, with updated bootloader, variant, and json files.
-The PlatformIO test project is also slightly updated as well.
-The original core for this board was causing errors resulting in it not compiling in my PlatformIO IDE (latest build as of today is Core 4.3.4 & Home 3.2.2). I believe this is due to an updated structure requirement in the json and variant files. 
+This is an updated version of the original branch, with updated core & project files.
+The original files were causing errors resulting in it not compiling in my PlatformIO IDE (latest build as of today is Core 4.3.4 & Home 3.2.2). I believe this is due to an updated structure requirement in the json and variant files. 
 
 # Sparkfun Pro nRF52840 Mini
 Below are instructions for setting up PlatformIO for [SparkFun Pro nRF52840 Mini](https://www.sparkfun.com/products/15025) development.
@@ -12,7 +11,7 @@ PlatformIO IDE is installed.
 
 ## Installation/Setup
 
-All files needed to add this board to PlatformIO are contained in this project's `files_to_install` directory. Everything outside of that is an actual PlatformIO project you can open in PlatformIO and use to test the core!
+All files needed to add this board to PlatformIO are contained in this project's `files_to_install` directory. Everything outside of that is an actual PlatformIO project you can open in PlatformIO and use to test it!
 
 1. Download this Git project.
 2. Navigate to the PlatformIO [core_dir](https://docs.platformio.org/en/latest/projectconf/section_platformio.html#projectconf-pio-core-dir). This is `~/.platformio` on Unix and `%HOMEPATH%\.platformio` on Windows.
