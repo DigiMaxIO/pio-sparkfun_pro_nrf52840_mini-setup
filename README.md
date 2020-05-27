@@ -15,7 +15,7 @@ All files needed to copy to PlatformIO directories are contained in this project
 1. Download this Git project.
 2. Navigate to the PlatformIO [core_dir](https://docs.platformio.org/en/latest/projectconf/section_platformio.html#projectconf-pio-core-dir). This is `~/.platformio` on Unix and `%HOMEPATH%\.platformio` on Windows.
 3. Within the `files_to_install` directory:
-    * Copy the file from this project:`.\files_to_install\platforms\nordicnrf52\boards\sparkfun_pro_nrf52840_mini.json` to your .platformio core directory at: `.\core_dir\platforms\nordicnrf52\boards`
+    * Copy the file named "sparkfun_pro_nrf52840_mini.json" from this project from:`.\files_to_install\platforms\nordicnrf52\boards\sparkfun_pro_nrf52840_mini.json` to your .platformio core directory at: `.\core_dir\platforms\nordicnrf52\boards`
     * Copy the directory from this project named "sparkfun_pro_nrf52840_mini" from: `.\files_to_install\packages\framework-arduinoadafruitnrf52\variants\sparkfun_pro_nrf52840_mini` to your platformio core directory at:`.\core_dir\packages\framework-arduinoadafruitnrf52\variants\`
     * Again, but slightly different, copy the directory from this project named "sparkfun_pro_nrf52840_mini" from: `.\files_to_install\packages\framework-arduinoadafruitnrf52\bootloader\sparkfun_pro_nrf52840_mini`
 to your platformio core directory at: `.\core_dir\packages\framework-arduinoadafruitnrf52\variants\sparkfun_pro_nrf52840_mini`
