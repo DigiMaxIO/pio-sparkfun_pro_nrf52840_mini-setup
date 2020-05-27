@@ -3,7 +3,7 @@ This is an updated version of the original branch, with updated core & project f
 The original files were causing errors resulting in it not compiling in my PlatformIO IDE (latest build as of today is Core 4.3.4 & Home 3.2.2). I believe this is due to an updated structure requirement in the json and variant files. I have only tested this on MacOS, as that is my preferred OS for development, but this should work just fine on Windows as well.
 
 # Sparkfun Pro nRF52840 Mini
-Below are instructions for setting up PlatformIO for [SparkFun Pro nRF52840 Mini](https://www.sparkfun.com/products/15025) development.
+Below are the instructions to setup PlatformIO for [SparkFun Pro nRF52840 Mini](https://www.sparkfun.com/products/15025) development.
 
 ## Prerequisites
 
